@@ -1,0 +1,20 @@
+git init                                            //初始化
+git status                                      //查看状态
+git add good.txt                             //提交暂存区
+git restore --staged common.txt   //撤销暂存区文件
+git commit -m "my first commit,good.txt" good.txt     //提交某个文件到本地仓库并注释
+git commit -am "my first commit"     //提交暂存区所有文件到本地仓库并注释
+git log          //完整版本信息显示
+git relog       //简化版本信息显示
+git branch -a  //显示所有分支
+git branch -v  //显示本地所有分支
+git branch -r  //显示远程所有分支
+git checkout -b dev 建立一个新的本地分支dev
+git checkout dev 切换到本地dev分支
+git merge origin/dev 将分支dev与当前分支进行合并
+
+
+git remote -v      //查看远程仓库信息
+git remote add origin https://github.com/siyipig/springcloud-config.git    //添加远程仓库并命名为origin
+git push origin master   //推送本地仓库master分支到远程仓库
+git remote show origin  //显示远程库origin里的资源 
