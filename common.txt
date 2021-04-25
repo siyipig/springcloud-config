@@ -5,7 +5,7 @@ git restore --staged common.txt   //撤销暂存区文件
 git commit -m "my first commit,good.txt" good.txt     //提交某个文件到本地仓库并注释
 git commit -am "my first commit"     //提交暂存区所有文件到本地仓库并注释
 git log          //完整版本信息显示
-git relog       //简化版本信息显示
+git relog       //简化版本信息显示   空格向下翻  b向上翻  q退出
 git reset --hard  [hash]    //切换到版本，--hard暂存区和工作区也做了切换
 git branch -a  //显示所有分支
 git branch -v  //显示本地所有分支
