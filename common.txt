@@ -17,5 +17,8 @@ git merge origin/dev 将分支dev与当前分支进行合并
 
 git remote -v      //查看远程仓库信息
 git remote add origin https://github.com/siyipig/springcloud-config.git    //添加远程仓库并命名为origin
+git remote add origin_ssh git@github.com:siyipig/springcloud-config.git
 git push origin master   //推送本地仓库master分支到远程仓库
 git remote show origin  //显示远程库origin里的资源 
+
+ssh-keygen -t rsa -C 89478754@qq.com
